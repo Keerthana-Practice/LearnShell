@@ -1,5 +1,5 @@
-a =10
+c =10
 b=20
 
-echo fisrt value =$a
+echo fisrt value =$c
 echo first value =$b
