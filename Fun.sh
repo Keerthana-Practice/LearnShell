@@ -3,4 +3,4 @@ example(){
   echo value of b =$1
 }
 
-example $1
+example $*
