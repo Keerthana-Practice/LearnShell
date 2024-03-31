@@ -6,8 +6,8 @@ example(){
 example $0
 example "$1"
 example $2
-example $*
-example $#
+example "$*"
+example "$#"
 
 example2(){
   echo "######## $1 ########"
