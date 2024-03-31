@@ -3,7 +3,7 @@ if [$x -gt 100] ; then
  echo "$x is greater than 100"
 fi
 
-y=50
+y=500
 if [$y -gt 100] ; then
  echo "$y is greater than 100"
 else
@@ -12,7 +12,7 @@ fi
 
 a=$1
 if [-z "$a" ] ; then
-  echo "input is missing"
+  echo input is missing
   exit
 fi
 
