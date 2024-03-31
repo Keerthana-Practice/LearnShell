@@ -3,7 +3,7 @@ example(){
 }
 
 
-exmample $0
+example $0
 example "$1"
 example $2
 example $*
