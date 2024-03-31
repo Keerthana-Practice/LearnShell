@@ -3,7 +3,7 @@ example(){
 }
 
 example $1
-example $1
+example $2
 
 example2(){
   echo "######## $1 ########"
