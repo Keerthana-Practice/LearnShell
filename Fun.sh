@@ -2,6 +2,8 @@ example(){
   echo value of a =$1
 }
 
+
+exmample $0
 example "$1"
 example $2
 example $*
