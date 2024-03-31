@@ -4,6 +4,7 @@ example(){
 
 example "$1"
 example $2
+example $*
 
 example2(){
   echo "######## $1 ########"
