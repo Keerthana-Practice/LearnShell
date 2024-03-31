@@ -11,7 +11,7 @@ else
 fi
 
 a=$1
-if [-z "$z" ] ; then
+if [-z "$a" ] ; then
   echo "input is missing"
   exit
 fi
