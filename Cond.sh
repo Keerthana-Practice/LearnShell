@@ -11,7 +11,9 @@ example (){
 
 example $0
 example ${Password}
+example $1
 example $2
+
 
 example2 (){
   echo "printing $1"
