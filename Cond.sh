@@ -1,7 +1,7 @@
 
 Password = "$1"
 checkinput(){
-  if [-z "$[Password]"] ; then
+  if [-z "${Password}"] ; then
   echo "input missing"
   exit 1
   fi
