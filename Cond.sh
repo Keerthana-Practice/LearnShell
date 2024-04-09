@@ -1,11 +1,9 @@
 
-Password = "$1"
-checkinput(){
-  if [-z "${Password}"] ; then
-  echo "input missing"
+Password="$1"
+if [ -z "${Password}" ]; then
+  echo input is missing
   exit 1
-  fi
-}
+ fi
 
 example (){
   echo "value of a=  ${Password}"
