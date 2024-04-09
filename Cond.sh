@@ -6,12 +6,13 @@ checkinput(){
   exit 1
   fi
 }
+
 example (){
-  echo "value of a=  $1"
+  echo "value of a=  ${Password}"
 }
 
 example $0
-example $1
+example ${Password}
 example $2
 
 example2 (){
