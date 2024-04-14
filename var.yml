@@ -6,8 +6,8 @@
   tasks:
     - name : tasks level printing
       ansible.builtin.debug:
-       msg: URL_Task -{{URL_Task}}
-       URL_Task: Task level printing
+        URL_Task: Task level printing
+        msg: URL_Task -{{URL_Task}}
 
     - name : Play level printing
       ansible.builtin.debug:
