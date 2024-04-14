@@ -12,7 +12,7 @@
 
     - name : Play level printing
       ansible.builtin.debug:
-        msg:URL_PlaY - {{ URL_PlaY }}
+        msg: URL_PlaY - {{ URL_PlaY }}
 
   roles:
     - demo
