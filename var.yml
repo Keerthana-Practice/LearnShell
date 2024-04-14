@@ -5,12 +5,12 @@
     URL_PlaY: Play level printing
   tasks:
     - name : tasks level printing
-      ansible_builtin_debug :
+      ansible.builtin.debug:
        msg: URL_Task -{{URL_Task}}
        URL_Task: Task level printing
 
     - name : Play level printing
-      ansible_builtin_debug:
+      ansible.builtin.debug:
         msg:URL_PlaY - {{ URL_PlaY }}
 
   roles:
