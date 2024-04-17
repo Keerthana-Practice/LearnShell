@@ -17,3 +17,7 @@
   roles:
     - demo
 
+# Play level variable can be accessed by all tasks and roles
+# tasks level varaible can be accessed by only that particulat task
+# role level variable can be acceseed by all demo roles
+
