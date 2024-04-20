@@ -5,9 +5,9 @@
     - name : printing fruits
       ansible.builtin.debug:
        msg : fruits
-       when: input = "fruits"
+       when: input = fruits
 
     - name : Printing veg
       ansible.builtin.debug:
         msg: veg
-        when : input = "veg"
+        when : input = veg
