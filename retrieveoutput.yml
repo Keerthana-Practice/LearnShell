@@ -1,10 +1,10 @@
-- name : stroring the task output
+- name : learning to store previous task output
   hosts: localhost
   tasks:
-    - name: stroring the task output
+    - name: storing the task output
       ansible.builtin.Shell: uptime
       register : output
 
-    - name : printing the previpus stored output
+    - name : printing the previous stored output
       ansible.builtin.debug:
         msg: "{{output}}"
