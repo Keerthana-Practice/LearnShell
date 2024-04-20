@@ -4,8 +4,8 @@
   tasks:
     - name : printing fruits
       ansible.builtin.debug:
-      msg : fruits
-      when: input = "fruits"
+       msg : fruits
+       when: input = "fruits"
 
     - name : Printing veg
       ansible.builtin.debug:
