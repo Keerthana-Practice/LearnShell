@@ -1,5 +1,5 @@
 - name : learning facts
-  host: localhost
+  hosts: localhost
   become : yes
   tasks:
     - name : printing facts
