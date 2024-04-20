@@ -1,3 +1,7 @@
-- name : printing facts
-  ansible.builtin.debug:
-    msg : hostname - {{ansible_hostname}}
+- name : learning facts
+  host: localhost
+  become : yes
+  tasks:
+    - name : printing facts
+      ansible.builtin.debug:
+       msg : hostname - {{ansible_hostname}}
